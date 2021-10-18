@@ -1,0 +1,276 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('assets/images/backg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: #6ab446;
+}
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description button {
+    border:1px solid #6ab446;
+    background:#6ab446;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #0a0a0a;
+    padding: 40px 0;
+}
+
+
+body{
+    font: 17px/1.5/Times New Roman;
+    padding: 0;
+    margin: 0;
+    background-color: darkslategray;
+}
+/* global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+.button_1{
+    height: 38px;
+    background: orangered;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.dark{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*header*/
+
+header{
+    background-color: darkslategrey;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: orangered;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: dimgrey;
+    font-weight: bold;
+}
+
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 26px;
+}
+#newsletter{
+    padding: 15px;
+    color: white;
+    background-color: darkslategrey;
+}
+
+#newsletter h1{
+    float: left;
+}
+#newsletter form {
+    float: right;
+    margin-top: 13px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/*boxes*/
+
+#boxes{
+    margin-top: 20px;
+}
+.box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.box img{
+    width: 90px;
+}
+/*sidebar*/
+aside#sidebar{
+    float: left;
+    width: 30%;
+    margin-top: 63px;
+    padding-left: 12px;
+}
+#sidebar .quote input, #sidebar .quote textarea{
+    width: 90%;
+    padding: 10px;
+}
+/*Main*/
+article#main-col{
+    float: left;
+    width: 65%;
+    padding-right: 12px;
+}
+#main h1{
+    font-size: 23px;
+    text-decoration: underline;
+}
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    background-color: darkgray;
+    color: white;
+    margin-top: 5px;
+    border: 2px solid gray;
+
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+    header#branding, header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 40px;
+    }
+    #newsletter button{
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
